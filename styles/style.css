@@ -137,7 +137,9 @@ select:focus {
 }
 .gallery-img {
   width: 400px;
+  border-radius: 5px;
   border: #8a2b25 2px dashed;
+  transition: 0.4s all;
 }
 @media screen and (max-width: 768px) {
   .form-box {
