@@ -102,7 +102,7 @@ input::placeholder {
 input:focus {
   border: 2px solid #933a36 !important;
 }
-select{
+select {
   background-color: #f5eeed;
   height: 50px;
   padding-left: 9px;
@@ -112,13 +112,13 @@ select{
   font-size: 16px;
   transition: 0.4s all;
 }
-option{
+option {
   color: #933b36b8;
 }
 select:focus {
   border: 2px solid #933a36 !important;
 }
-.submit-btn{
+.submit-btn {
   background-color: #933a36;
   color: white;
   border: none;
@@ -127,4 +127,23 @@ select:focus {
   font-size: 16px;
   cursor: pointer;
   transition: 0.4s all;
+}
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 2% 0;
+}
+.gallery-img {
+  width: 400px;
+  border: #8a2b25 2px dashed;
+}
+@media screen and (max-width: 768px) {
+  .form-box {
+    width: 100%;
+  }
+  form {
+    width: 90%;
+  }
 }
