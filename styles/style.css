@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #f5eeed;
+  color: rgb(74, 73, 73);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px;
+}
+thead {
+  border: none;
+}
+th {
+  background-color: #f5eeed;
+  border: #8a2b25 2px dashed;
+}
+main {
+  width: 95%;
+  margin: 0 auto;
+}
+p {
+  text-align: justify;
+  font-size: 16px;
+}
+.background-img {
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+  color: #8a2b25;
+  transition: 0.5s ease-in-out;
+}
+a:hover {
+  color: black;
+}
+
+.title {
+  text-align: center;
+  margin: 2% 0;
+  color: #8a2b25;
+  padding: 5px 0;
+  border-bottom: 1px double #8a2b25;
+}
+.heading {
+  color: #8a2b25;
+  margin: 1% 0;
+}
+footer {
+  text-align: center;
+  margin: 2% 0;
+  padding: 5px 0;
+  border-top: 1px double #8a2b25;
+}
+.span,
+b {
+  color: #933a36;
+  font-weight: bold;
+}
+.heading-small {
+  color: #933a36;
+}
+.form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+.input-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 3px;
+}
+label {
+  color: #933a36;
+  font-weight: bold;
+}
+input {
+  background-color: #f5eeed;
+  height: 50px;
+  padding-left: 9px;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid #933b3664;
+  font-size: 16px;
+  transition: 0.4s all;
+}
+input::placeholder {
+  color: #933b36b8;
+}
+input[type="text"]:focus {
+  border: 2px solid #933a36 !important;
+}
