@@ -80,6 +80,7 @@ form {
   flex-direction: column;
   justify-content: flex-start;
   gap: 3px;
+  margin-bottom: 15px;
 }
 label {
   color: #933a36;
@@ -98,6 +99,32 @@ input {
 input::placeholder {
   color: #933b36b8;
 }
-input[type="text"]:focus {
+input:focus {
   border: 2px solid #933a36 !important;
+}
+select{
+  background-color: #f5eeed;
+  height: 50px;
+  padding-left: 9px;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid #933b3664;
+  font-size: 16px;
+  transition: 0.4s all;
+}
+option{
+  color: #933b36b8;
+}
+select:focus {
+  border: 2px solid #933a36 !important;
+}
+.submit-btn{
+  background-color: #933a36;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.4s all;
 }

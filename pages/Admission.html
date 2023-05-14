@@ -32,13 +32,112 @@
       </thead>
     </table>
     <main>
-      <h1 class="title">Admission</h1>
+      <h1 class="title">Admission Form</h1>
       <div class="form-box">
         <form action="">
           <div class="input-box">
             <label for="name">Name</label>
-            <input placeholder="Name" type="text" name="name" id="name" />
+            <input
+              placeholder="Name"
+              type="text"
+              required
+              name="name"
+              id="name"
+            />
           </div>
+          <div class="input-box">
+            <label for="fatherName">Father Name</label>
+            <input
+              placeholder="Father Name"
+              type="text"
+              name="fatherName"
+              id="fatherName"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <label for="phone">Phone no.</label>
+            <input
+              placeholder="+92xxxxxxxxx"
+              type="number"
+              required
+              name="phone"
+              id="phone"
+            />
+          </div>
+          <div class="input-box">
+            <label for="cnic">CNIC no.</label>
+            <input
+              placeholder="xxxxxxxxxxxx"
+              type="number"
+              required
+              name="cnic"
+              id="cnic"
+            />
+          </div>
+          <div class="input-box">
+            <label for="email">Email</label>
+            <input
+              placeholder="email@gmail.com"
+              type="email"
+              required
+              name="email"
+              id="email"
+            />
+          </div>
+          <div class="input-box">
+            <label for="matricMarks">Matric marks</label>
+            <input
+              placeholder="Matric marks"
+              type="number"
+              required
+              name="matricMarks"
+              id="matricMarks"
+            />
+          </div>
+          <div class="input-box">
+            <label for="interMarks">Inter marks</label>
+            <input
+              placeholder="Inter marks"
+              type="number"
+              required
+              name="interMarks"
+              id="interMarks"
+            />
+          </div>
+          <div class="input-box">
+            <label for="bsProgram">BS Program</label>
+            <select
+              placeholder="BS"
+              type="select"
+              required
+              name="bsProgram"
+              id="bsProgram"
+            >
+              <option value="" selected disabled>Choose BS Program</option>
+              <option value="computerScience">Computer Science</option>
+              <option value="chemistry">Chemistry</option>
+              <option value="Physics">Physics</option>
+              <option value="english">English</option>
+              <option value="phycolofy">Phycology</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <label for="section">Section</label>
+            <select
+              placeholder="section"
+              type="select"
+              required
+              name="section"
+              id="section"
+            >
+              <option value="" selected disabled>Choose Section</option>
+              <option value="morning">Morning</option>
+              <option value="evening">Evening</option>
+            </select>
+          </div>
+
+          <button class="submit-btn" type="submit">Submit</button>
         </form>
       </div>
     </main>
